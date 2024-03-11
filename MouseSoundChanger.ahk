@@ -106,13 +106,13 @@ exitapp
 return
 
 XButton1::
-settimer, nextTooltip, 1
-Send, {Media_Next}
+settimer, prevTooltip, 1
+Send, {Media_Prev}
 return
 
 XButton2::
-settimer, prevTooltip, 1
-Send, {Media_Prev}
+settimer, nextTooltip, 1
+Send, {Media_Next}
 return
 
 nextTooltip:
